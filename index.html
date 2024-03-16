@@ -4,66 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zeme's place</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 40px; /* Added padding to the left and right sides */
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            width: calc(100% - 80px); /* Account for padding on both sides */
-            top: 0;
-            z-index: 999; /* Ensure header stays above other content */
-        }
-        .cv-options a {
-            color: #fff;
-            text-decoration: none;
-            margin-left: 20px;
-        }
-        .cv-options a:hover {
-            text-decoration: underline;
-        }
-        .cv-name {
-            margin: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 100px auto 20px; /* Adjust margin as needed */
-            padding: 0 20px; /* Adjust padding as needed */
-        }
-        .project {
-            display: flex;
-            margin-bottom: 20px;
-        }
-        .project img {
-            width: 350px; /* Adjust image width as needed */
-            height: auto;
-            margin-right: 20px;
-        }
-        .project-content {
-            flex: 1;
-        }
-    </style>
+    <link rel="stylesheet" href="style\styles.css">
 </head>
 <body>
     <header>
         <h1 class="cv-name">Māriņš Zemlītis</h1>
         <nav class="cv-options">
-            <a href="#home">About me</a>
-            <a href="#projects">Projects</a>
-            <a href="#hobbies">Hobbies</a>
+            <a href="index.html">About me</a>
+            <a href="templates/research.html">Research</a>
         </nav>
     </header>
     <div class="container" id="home">
         <h2>About Me</h2>
         <p>I am a mathematics student from University of Latvia. I really passionate about programming and optimziation. </p>
+
+        <p> I have worked on some research that involves using fuzzy relations such as fuzzy equivalence and fuzzy order relations for solving multi objective linear programming problems. 
+            Right now I am exploring how similairty relations can be used for solving maximin problems. </p>
         <!-- You can add more sections for your CV content here -->
     </div>
     <div class="container" id="projects">
