@@ -61,6 +61,12 @@ header {
     background-color: #ccc;
 }
 
+.container {
+    display: flex;
+}
+
+
+
 
 .block-title {
     position: absolute;
