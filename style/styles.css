@@ -62,7 +62,9 @@ header {
 }
 
 
-
+.container_blog{
+    display: flex;
+}
 
 .block-title {
     position: absolute;
